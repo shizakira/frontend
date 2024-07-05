@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #0B1D26;
+    color:#fff;
+
+}
+
+main{
+    max-width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.profession-container{
+    display: flex;
+    gap: 30px;
+}
+
+.profession-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    color: #F7DF1E;
+}
+
+.num{
+    z-index: 0;
+
+
+    position: relative;
+
+    left: -100px;
+    top: 110px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 0px;
+
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+
+    opacity: 0.1;
+}
+
+.title{
+font-family: 'Brygada 1918';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+max-width: 415px;
+margin: 18px 0 72px;
+}
+
+.description{
+font-size: 16px;
+line-height: 37px;
+max-width: 572px;
+margin: 0 0 31px;
+}
+
+.link-container{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.learn-more{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 39px;
+color: #F7DF1E;
+margin-right: 10px;
+}
+
+.link-container:hover{
+    opacity: 0.5;
+}
+
+.logo{
+    max-width: 100%;
+}
+
+@media(max-width:1480px){
+    .num{
+        display: none;
+    }
+}
+
+@media(max-width:1080px){
+    main{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:480px){
+    .title{
+        font-size: 52px;
+    }
+}
+
+@media(max-width:370px){
+    .title{
+        font-size: 42px;
+    }
+}
+
